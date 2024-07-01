@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+      <header class="header">
+
+        <a href="#home" class="logo">Jonas <span>Santos</span></a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">Sobre</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projetos</a>
+          <a href="#contact">Contato</a>
+        </nav>
+
+        <a href="#contact"><button class="gradient-btn">Contate-me</button></a>
+      </header>
+      
+      <section class="home" id="home">
+        <div class="home-content">
+          <h1>Olá, Meu nome é <span>Jonas</span></h1>
+          <h3>
+            Eu sou <span>Desenvolvedor Backend</span>
+          </h3>
+          
+
+          <div class="social-icons">
+            <a href="https://github.com/Jonaskest" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/jonas-santoss/" target="_blank">
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+
+            <a href="https://www.instagram.com/jonassantosks/" target="_blank">
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+          </div>
+          <div class="btn-group">
+            <a href="mailto:jonaskest@hotmail.com" class="btn">Contratar</a>
+            <a href="#contact" class="btn">Contato</a>
+          </div>
+        </div>
+        <div class="home-img">
+          <img src="fotor-202406241763.png" alt="">
+        </div>
+
+      </section>
+
+      <section class="about" id="about">
+
+        <div class="about-img">
+          <img src="fotor-202406241763.png" alt="">
+        </div>
+
+        <div class="about-content">
+          <h2>Sobre <span>Mim</span></h2>
+          <p>Estudante de Análise e Desenvolvimento de Sistemas e apaixonado por tecnologia,  buscando me desenvolver pessoalmente e profissionalmente.Atualmente cursando o 3° semestre na faculdade Estácio, meu sonho é trabalhar na área fazendo o que ja faço por paixão!</p>
+          <a href="#" class="btn">Leia mais</a>
+        </div>
+        
+      </section>
+
+      <section class="skills" id="skills">
+        <h2 class="heading">Minhas Skills</h2>
+
+        <div class="skills-container">
+          <div class="skills-box">
+            <div class="skills-info">
+              <i class='bx bxl-html5' ></i>
+              <h4>HTML5</h4>
+            </div>
+          </div>
+
+          <div class="skills-box">
+            <div class="skills-info">
+              <i class='bx bxl-css3' ></i>
+              <h4>CSS</h4>
+            </div>
+          </div>
+
+          <div class="skills-box">
+            <div class="skills-info">
+              <i class='bx bxl-javascript' ></i>
+              <h4>JAVASCRIPT</h4>
+            </div>
+          </div>
+
+          <div class="skills-box">
+            <div class="skills-info">
+              <i class='bx bxl-django' ></i>
+              <h4>DJANGO</h4>
+            </div>
+          </div>
+
+          <div class="skills-box">
+            <div class="skills-info">
+              <i class='bx bxl-python' ></i>
+              <h4>PYTHON</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        
+        <h2 class="heading">Projetos</h2>
+
+        <div class="projects-box">
+
+          <div class="project-card">
+            <img src="Sistema de Pedidos(Delivery).PNG" alt="">
+
+            <h3>Delivery</h3>
+            <p>Sistema de pedidos (Delivery) web com envio de mensagem dos pedidos via um bot do telegram que utiliza um servidor de aplicação de mercado e uma linguagem de programação altamente requisitada no mercado (Python).</p>
+            <div class="btn">Ver Projeto</div>
+          </div>
+          <div class="project-card">
+            <img src="" alt="">
+
+            <h3>Projeto 2</h3>
+            <p>Em Desenvolvimento</p>
+            <div class="btn">Ver Projeto</div>
+          </div>
+          <!-- <div class="project-card">
+            <img src="" alt="">
+
+            <h3>Projeto 3</h3>
+            <p>Em Desenvolvimento</p>
+            <div class="btn">Ver Projeto</div>
+          </div>
+          <div class="project-card">
+            <img src="" alt="">
+
+            <h3>Projeto 4</h3>
+            <p>Em Desenvolvimento</p>
+            <div class="btn">Ver Projeto</div>
+          </div>
+          <div class="project-card">
+            <img src="" alt="">
+
+            <h3>Projeto 5</h3>
+            <p>Em Desenvolvimento</p>
+            <div class="btn">Ver Projeto</div>
+          </div> -->
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="heading">Contate-<span>Me</span></h2>
+        <form action="https://formspree.io/f/xovaqaog" method="POST">
+          <div class="input-group">
+            <div class="input-box">
+              <input type="text" name="nome" placeholder="Nome" required>
+              <input type="email" name="email" placeholder="Email" required>
+            </div>
+
+            <div class="input-box">
+              <input type="number" name="numero" placeholder="Número de Telefone">
+              <input type="text" name="assunto" placeholder="Assunto">
+            </div>
+          </div>
+
+          <div class="input-group-2">
+            <textarea name="mensagem" id="" placeholder="Sua Mensagem" cols="30" rows="10" required></textarea>
+            <input type="submit" value="Enviar Mensagem" class="btn">
+          </div>
+
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="social-icons">
+          <a href="https://github.com/Jonaskest" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/jonas-santoss/" target="_blank">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+
+          <a href="https://www.instagram.com/jonassantosks/" target="_blank">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+        </div>
+        <ul class="list">
+          <li>
+            <a href="#about">Sobre mim</a>
+          </li>
+          <li>
+            <a href="#projects">Projetos</a>
+          </li>
+          <li>
+            <a href="#contact">Contato</a>
+          </li>
+        </ul>
+        <p class="copyright">
+          © Jonas Santos | Todos os direitos Reservados
+        </p>
+      </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
